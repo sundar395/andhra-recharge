@@ -1,0 +1,73 @@
+<!--
+
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+	  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+-->
+<flex-config>
+
+    <compiler>
+
+        <accessible>false</accessible>
+        <debug>false</debug>
+
+        <library-path>
+        </library-path>
+
+        <external-library-path>
+           <path-element>C:\Users\admin\.m2\repository\org\apache\flex\flexjs\typedefs\flexjs-typedefs-js\0.8.0\flexjs-typedefs-js-0.8.0-typedefs.swc</path-element>
+        </external-library-path>
+
+        <source-path>
+           <path-element>D:\devops-practice\MAVEN\ANDHRA\RECHARGE\recharge\src\main\flex</path-element>
+           <path-element>D:\devops-practice\MAVEN\ANDHRA\RECHARGE\recharge\target\generated-sources\externc\classes</path-element>
+        </source-path>
+
+        <namespaces>
+        </namespaces>
+
+        <warn-no-constructor>false</warn-no-constructor>
+
+        <mxml>
+            <children-as-data>true</children-as-data>
+        </mxml>
+
+        <show-deprecation-warnings>false</show-deprecation-warnings>
+
+        <define>
+            <name>COMPILE::JS</name>
+            <value>true</value>
+        </define>
+        <define>
+            <name>COMPILE::SWF</name>
+            <value>false</value>
+        </define>
+
+        <strict-xml>true</strict-xml>
+    </compiler>
+
+    <include-sources>
+        <path-element>D:\devops-practice\MAVEN\ANDHRA\RECHARGE\recharge\src\main\flex</path-element>
+        <path-element>D:\devops-practice\MAVEN\ANDHRA\RECHARGE\recharge\target\generated-sources\externc\classes</path-element>
+    </include-sources>
+
+
+    <include-namespaces>
+    </include-namespaces>
+
+
+    <output>D:\devops-practice\MAVEN\ANDHRA\RECHARGE\recharge\target\flexjs-simple-typedef-archetype-0.8.0-extern.swc</output>
+
+</flex-config>
